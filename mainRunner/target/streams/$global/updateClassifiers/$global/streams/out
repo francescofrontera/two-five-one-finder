@@ -138,7 +138,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.github.scopt#scopt_2.12;3.5.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.github.scopt#scopt_2.12;3.5.0
-[debug] 	found com.github.scopt#scopt_2.12;3.5.0 in public
+[debug] 	found com.github.scopt#scopt_2.12;3.5.0 in sbt-chain
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->master(compile)]
@@ -146,13 +146,13 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->master]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {compile=[master(*), compile, runtime(*), runtime, compile(*), master], runtime=[master(*), compile, runtime(*), runtime, compile(*), master], test=[master(*), compile, runtime(*), runtime, compile(*), master], compile-internal=[master(*), compile, runtime(*), runtime, compile(*), master], runtime-internal=[master(*), compile, runtime(*), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
 [debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
@@ -367,11 +367,12 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->master]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.8 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->master(*)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.8 {compile=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], test=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.8
 [debug] 	found org.scala-lang#scala-reflect;2.12.8 in sbt-chain
 [debug] 	[2.12.8] org.scala-lang#scala-reflect;2.12.8
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->master(compile)]
@@ -593,10 +594,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
@@ -753,6 +754,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->compile]
@@ -944,10 +946,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile(*)]
@@ -1104,6 +1106,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->compile]
@@ -1299,10 +1302,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
@@ -1459,6 +1462,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->compile]
@@ -1650,10 +1654,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile(*)]
@@ -1810,6 +1814,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->compile]
@@ -2001,10 +2006,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [test->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [test->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [test->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)]
@@ -2161,6 +2166,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [test->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [test->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [test->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test->compile]
@@ -2359,10 +2365,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
@@ -2519,6 +2525,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->compile]
@@ -2712,10 +2719,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile-internal->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile-internal->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile(*)]
@@ -2872,6 +2879,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile-internal->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile-internal->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile-internal->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile-internal->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile-internal->compile]
@@ -3067,10 +3075,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
@@ -3227,6 +3235,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->compile]
@@ -3418,10 +3427,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile(*)]
@@ -3578,6 +3587,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->compile]
@@ -3770,10 +3780,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime-internal->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime-internal->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->compile(*)]
@@ -3930,6 +3940,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime-internal->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime-internal->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime-internal->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime-internal->compile]
@@ -4126,10 +4137,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
@@ -4286,6 +4297,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile->compile]
@@ -4477,10 +4489,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [runtime->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile(*)]
@@ -4637,6 +4649,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [runtime->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [runtime->compile]
@@ -4828,10 +4841,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [test->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [test->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [test->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)]
@@ -4988,6 +5001,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [test->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [test->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [test->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test->compile]
@@ -5181,10 +5195,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [test-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [test-internal->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [test-internal->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile(*)]
@@ -5341,6 +5355,7 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [test-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [test-internal->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->com.twitter#chill-java;0.7.6 [test-internal->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test-internal->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test-internal->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test-internal->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test-internal->compile]
@@ -5450,10 +5465,10 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [scala-tool->optional(default)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [scala-tool->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [scala-tool->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile(*)]
@@ -5468,162 +5483,66 @@
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.8 [scala-tool->optional]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.8 [scala-tool->optional(default)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.8 [scala-tool->master]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->master(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->runtime(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->master(compile)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->runtime]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->master]
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->compile]
-[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {scala-tool=[compile, master(compile), compile(*), master]}
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->master(*)]
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {scala-tool=[master(*), compile, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: jline#jline;2.14.6
 [debug] 	found jline#jline;2.14.6 in sbt-chain
-[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->master(compile)]
+[debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->compile]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->compile(*)]
 [debug] == resolving dependencies mainrunner#mainrunner$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-streaming-java_2.12;1.9.1!flink-streaming-java_2.12.jar(src)
 [debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.2!commons-collections.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.flink#flink-streaming-java_2.12;1.9.1!flink-streaming-java_2.12.jar(src)
 [debug] 	[NOT REQUIRED] commons-cli#commons-cli;1.3.1!commons-cli.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.21!akka-protobuf_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar(src)
-[debug] no default ivy user dir defined: set to /Users/francescofrontera/.ivy2
-[debug] no default ivy user dir defined: set to /Users/francescofrontera/.ivy2
-[debug] no default ivy user dir defined: set to /Users/francescofrontera/.ivy2
-[debug] no default ivy user dir defined: set to /Users/francescofrontera/.ivy2
-[debug] no default ivy user dir defined: set to /Users/francescofrontera/.ivy2
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.12;2.5.21!akka-slf4j_2.12.jar(src)
-[debug] no default ivy user dir defined: set to /Users/francescofrontera/.ivy2
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /Users/francescofrontera/.ivy2/cache
-[debug] no default cache defined: set to /Users/francescofrontera/.ivy2/cache
-[debug] no default cache defined: set to /Users/francescofrontera/.ivy2/cache
-[debug] no default cache defined: set to /Users/francescofrontera/.ivy2/cache
-[debug] no default cache defined: set to /Users/francescofrontera/.ivy2/cache
-[debug] no default cache defined: set to /Users/francescofrontera/.ivy2/cache
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/francescofrontera/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (35ms)
-[debug] 	default cache: /Users/francescofrontera/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (39ms)
-[debug] 	default cache: /Users/francescofrontera/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (40ms)
-[debug] 	default cache: /Users/francescofrontera/.ivy2/cache
-[debug] 	default resolver: default
-[debug] settings loaded (40ms)
-[debug] 	default cache: /Users/francescofrontera/.ivy2/cache
-[debug] 	-- 5 resolvers:
-[debug] settings loaded (40ms)
-[debug] 	default resolver: default
-[debug] 	shared [file]
-[debug] 	default cache: /Users/francescofrontera/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	public [ibiblio]
-[debug] 	default [chain] [local, main]
-[debug] 	main [chain] [shared, public]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (41ms)
-[debug] 	default cache: /Users/francescofrontera/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-clients_2.12;1.9.1!flink-clients_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-streaming-scala_2.12;1.9.1!flink-streaming-scala_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.flink#flink-streaming-scala_2.12;1.9.1!flink-streaming-scala_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.12;2.5.21!akka-slf4j_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.flink#flink-clients_2.12;1.9.1!flink-clients_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.github.scopt#scopt_2.12;3.5.0!scopt_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-hadoop-fs;1.9.1!flink-hadoop-fs.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
-[debug] 	[NOT REQUIRED] com.twitter#chill_2.12;0.7.6!chill_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.flink#flink-hadoop-fs;1.9.1!flink-hadoop-fs.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.flink#flink-core;1.9.1!flink-core.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.flink#flink-metrics-core;1.9.1!flink-metrics-core.jar(src)
+[debug] 	[NOT REQUIRED] com.twitter#chill_2.12;0.7.6!chill_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.flink#flink-optimizer_2.12;1.9.1!flink-optimizer_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.flink#flink-java;1.9.1!flink-java.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-runtime_2.12;1.9.1!flink-runtime_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.flink#flink-queryable-state-client-java;1.9.1!flink-queryable-state-client-java.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.3.7!ssl-config-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.flink#flink-runtime_2.12;1.9.1!flink-runtime_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.18!commons-compress.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.javassist#javassist;3.19.0-GA!javassist.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.3.7!ssl-config-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.21!akka-stream_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-annotations;1.9.1!flink-annotations.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-math3;3.5!commons-math3.jar(src)
-[debug] 	[NOT REQUIRED] com.twitter#chill-java;0.7.6!chill-java.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.flink#flink-annotations;1.9.1!flink-annotations.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.21!akka-stream_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.4!snappy-java.jar(src)
+[debug] 	[NOT REQUIRED] com.twitter#chill-java;0.7.6!chill-java.jar(src)
 [debug] 	[NOT REQUIRED] org.clapper#grizzled-slf4j_2.12;1.3.2!grizzled-slf4j_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.21!akka-actor_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.1!objenesis.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.15!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.24.0!kryo.jar(src)
+[debug] 	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.21!akka-actor_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.flink#flink-scala_2.12;1.9.1!flink-scala_2.12.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] 	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
-[debug] :: resolution report :: resolve 962ms :: artifacts dl 61ms
+[debug] :: resolution report :: resolve 312ms :: artifacts dl 6ms
 [debug] 	report for mainrunner#mainrunner$sources;0.1.0-SNAPSHOT compile produced in /Users/francescofrontera/Workspace/open-source-project/two-five-one-progression/mainRunner/target/scala-2.12/resolution-cache/reports/mainrunner-mainrunner$sources-compile.xml
 [debug] 	report for mainrunner#mainrunner$sources;0.1.0-SNAPSHOT runtime produced in /Users/francescofrontera/Workspace/open-source-project/two-five-one-progression/mainRunner/target/scala-2.12/resolution-cache/reports/mainrunner-mainrunner$sources-runtime.xml
 [debug] 	report for mainrunner#mainrunner$sources;0.1.0-SNAPSHOT test produced in /Users/francescofrontera/Workspace/open-source-project/two-five-one-progression/mainRunner/target/scala-2.12/resolution-cache/reports/mainrunner-mainrunner$sources-test.xml
@@ -5635,4 +5554,4 @@
 [debug] 	report for mainrunner#mainrunner$sources;0.1.0-SNAPSHOT plugin produced in /Users/francescofrontera/Workspace/open-source-project/two-five-one-progression/mainRunner/target/scala-2.12/resolution-cache/reports/mainrunner-mainrunner$sources-plugin.xml
 [debug] 	report for mainrunner#mainrunner$sources;0.1.0-SNAPSHOT pom produced in /Users/francescofrontera/Workspace/open-source-project/two-five-one-progression/mainRunner/target/scala-2.12/resolution-cache/reports/mainrunner-mainrunner$sources-pom.xml
 [debug] 	report for mainrunner#mainrunner$sources;0.1.0-SNAPSHOT scala-tool produced in /Users/francescofrontera/Workspace/open-source-project/two-five-one-progression/mainRunner/target/scala-2.12/resolution-cache/reports/mainrunner-mainrunner$sources-scala-tool.xml
-[debug] 	resolve done (962ms resolve - 61ms download)
+[debug] 	resolve done (312ms resolve - 6ms download)

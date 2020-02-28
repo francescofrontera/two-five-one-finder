@@ -4,7 +4,7 @@
 		module="mainrunner_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20191109171648"
+		publication="20200228150900"
 	>
 		<description>
 		mainRunner

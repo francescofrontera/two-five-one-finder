@@ -17,19 +17,18 @@ object Pattern {
     def I: ChordRep
 
     final def progression: Seq[ChordRep] = Seq(II, V, I)
-
   }
 
   def inC: IIVI = new IIVI {
     val II: ChordRep = ChordRep(Definitions.D, Chord.MinSeven)
-    val V: ChordRep = ChordRep(Definitions.G, Chord.Dominant)
-    val I: ChordRep = ChordRep(Definitions.C, Chord.MajorSeven)
+    val V: ChordRep  = ChordRep(Definitions.G, Chord.Dominant)
+    val I: ChordRep  = ChordRep(Definitions.C, Chord.MajorSeven)
   }
 
   def inF: IIVI = new IIVI {
     val II: ChordRep = ChordRep(Definitions.G, Chord.MinSeven)
-    val V: ChordRep = ChordRep(Definitions.C, Chord.Dominant)
-    val I: ChordRep = ChordRep(Definitions.F, Chord.MajorSeven)
+    val V: ChordRep  = ChordRep(Definitions.C, Chord.Dominant)
+    val I: ChordRep  = ChordRep(Definitions.F, Chord.MajorSeven)
   }
 
   //so one...

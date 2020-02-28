@@ -11,6 +11,7 @@ import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironm
 object Job {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
+    env.setParallelism(2)
 
     val IIVIPatterDS: DataStream[IIVI] = env.fromCollection(Pattern.IIVIPatterns)
     val bcedPattern: BroadcastStream[IIVI] = IIVIPatterDS.broadcast(Pattern.stateDescriptorForPattern)

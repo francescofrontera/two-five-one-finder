@@ -188,6 +188,28 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.apache.flink#flink-shaded-jackson;2.9.8-7.0 {provided=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.flink#flink-shaded-jackson;2.9.8-7.0
+[debug] 	found org.apache.flink#flink-shaded-jackson;2.9.8-7.0 in sbt-chain
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.apache.flink#flink-shaded-guava;18.0-7.0 {provided=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.flink#flink-shaded-guava;18.0-7.0
+[debug] 	found org.apache.flink#flink-shaded-guava;18.0-7.0 in sbt-chain
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-streaming-scala_2.12;1.9.1 [provided->default]
 [debug] sbt-chain: Checking cache for: dependency: org.apache.flink#flink-streaming-scala_2.12;1.9.1 {provided=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.apache.flink#flink-streaming-scala_2.12;1.9.1
@@ -206,7 +228,7 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [provided->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.github.scopt#scopt_2.12;3.5.0 {provided=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.github.scopt#scopt_2.12;3.5.0
-[debug] 	found com.github.scopt#scopt_2.12;3.5.0 in public
+[debug] 	found com.github.scopt#scopt_2.12;3.5.0 in sbt-chain
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [provided->master(compile)]
@@ -214,13 +236,13 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [provided->master]
-[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {provided=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->master(*)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {provided=[master(*), compile, runtime(*), runtime, compile(*), master], compile-internal=[master(*), compile, runtime(*), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
 [debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->compile]
-[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->master(compile)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->runtime]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->compile(*)]
@@ -258,6 +280,17 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 {provided=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.flink#flink-shaded-asm-6;6.2.1-7.0
+[debug] 	found org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 in sbt-chain
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-metrics-core;1.9.1 [provided->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.apache.flink#flink-metrics-core;1.9.1 {provided=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.apache.flink#flink-metrics-core;1.9.1
@@ -402,6 +435,17 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.apache.flink#force-shading;1.9.1 {provided=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.flink#force-shading;1.9.1
+[debug] 	found org.apache.flink#force-shading;1.9.1 in sbt-chain
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-annotations;1.9.1 [provided->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.apache.flink#flink-annotations;1.9.1 {provided=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.apache.flink#flink-annotations;1.9.1
@@ -435,11 +479,12 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [provided->master]
-[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.8 {provided=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->master(*)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.8 {provided=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.8
 [debug] 	found org.scala-lang#scala-reflect;2.12.8 in sbt-chain
 [debug] 	[2.12.8] org.scala-lang#scala-reflect;2.12.8
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->master(compile)]
@@ -469,6 +514,17 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 {provided=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0
+[debug] 	found org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 in sbt-chain
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.objenesis#objenesis;2.1 {provided=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;2.1
@@ -480,6 +536,17 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.google.code.findbugs#jsr305;1.3.9 {provided=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;1.3.9
+[debug] 	found com.google.code.findbugs#jsr305;1.3.9 in sbt-chain
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.21 [provided->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.12;2.5.21 {provided=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.12;2.5.21
@@ -647,6 +714,22 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-streaming-scala_2.12;1.9.1 [provided->default]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-streaming-scala_2.12;1.9.1 [provided->runtime]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-streaming-scala_2.12;1.9.1 [provided->compile]
@@ -667,10 +750,10 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->master(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->compile]
-[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->master(compile)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->runtime]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->compile(*)]
@@ -699,6 +782,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-metrics-core;1.9.1 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-metrics-core;1.9.1 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-metrics-core;1.9.1 [provided->compile]
@@ -803,6 +894,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-annotations;1.9.1 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-annotations;1.9.1 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-annotations;1.9.1 [provided->compile]
@@ -827,6 +926,7 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->master(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->compile]
@@ -851,6 +951,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->compile]
@@ -859,6 +967,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.21 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.21 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.21 [provided->compile]
@@ -996,6 +1112,22 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [compile-internal->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [compile-internal->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [compile-internal->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [compile-internal->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [compile-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [compile-internal->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [compile-internal->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [compile-internal->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [compile-internal->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [compile-internal->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-streaming-scala_2.12;1.9.1 [compile-internal->default]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-streaming-scala_2.12;1.9.1 [compile-internal->runtime]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-streaming-scala_2.12;1.9.1 [compile-internal->compile]
@@ -1016,10 +1148,10 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [compile-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->master(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile]
-[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->master(compile)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->runtime]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile(*)]
@@ -1048,6 +1180,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [compile-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [compile-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [compile-internal->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [compile-internal->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [compile-internal->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [compile-internal->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [compile-internal->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-metrics-core;1.9.1 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-metrics-core;1.9.1 [compile-internal->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-metrics-core;1.9.1 [compile-internal->compile]
@@ -1152,6 +1292,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [compile-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [compile-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [compile-internal->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [compile-internal->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [compile-internal->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [compile-internal->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [compile-internal->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-annotations;1.9.1 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-annotations;1.9.1 [compile-internal->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-annotations;1.9.1 [compile-internal->compile]
@@ -1176,6 +1324,7 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [compile-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile-internal->master(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile-internal->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [compile-internal->compile]
@@ -1200,6 +1349,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [compile-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [compile-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [compile-internal->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [compile-internal->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [compile-internal->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [compile-internal->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [compile-internal->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [compile-internal->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [compile-internal->compile]
@@ -1208,6 +1365,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [compile-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [compile-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.21 [compile-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.21 [compile-internal->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.21 [compile-internal->compile]
@@ -1421,6 +1586,22 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-streaming-scala_2.12;1.9.1 [provided->default]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-streaming-scala_2.12;1.9.1 [provided->runtime]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-streaming-scala_2.12;1.9.1 [provided->compile]
@@ -1441,10 +1622,10 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->master(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->compile]
-[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->master(compile)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->runtime]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [provided->compile(*)]
@@ -1473,6 +1654,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-metrics-core;1.9.1 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-metrics-core;1.9.1 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-metrics-core;1.9.1 [provided->compile]
@@ -1577,6 +1766,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-annotations;1.9.1 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-annotations;1.9.1 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-annotations;1.9.1 [provided->compile]
@@ -1601,6 +1798,7 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->master(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [provided->compile]
@@ -1625,6 +1823,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->compile]
@@ -1633,6 +1839,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [provided->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [provided->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.21 [provided->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.21 [provided->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.21 [provided->compile]
@@ -1770,6 +1984,22 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [test-internal->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [test-internal->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [test-internal->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-jackson;2.9.8-7.0 [test-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [test-internal->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [test-internal->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [test-internal->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-guava;18.0-7.0 [test-internal->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-streaming-scala_2.12;1.9.1 [test-internal->default]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-streaming-scala_2.12;1.9.1 [test-internal->runtime]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-streaming-scala_2.12;1.9.1 [test-internal->compile]
@@ -1790,10 +2020,10 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [test-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.github.scopt#scopt_2.12;3.5.0 [test-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
-[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master(compile)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile(*)]
@@ -1822,6 +2052,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [test-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill_2.12;0.7.6 [test-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [test-internal->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [test-internal->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [test-internal->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-asm-6;6.2.1-7.0 [test-internal->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-metrics-core;1.9.1 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-metrics-core;1.9.1 [test-internal->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-metrics-core;1.9.1 [test-internal->compile]
@@ -1926,6 +2164,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [test-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.5 [test-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [test-internal->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [test-internal->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [test-internal->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [test-internal->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#force-shading;1.9.1 [test-internal->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-annotations;1.9.1 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-annotations;1.9.1 [test-internal->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-annotations;1.9.1 [test-internal->compile]
@@ -1950,6 +2196,7 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [test-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.twitter#chill-java;0.7.6 [test-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test-internal->master(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test-internal->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [test-internal->compile]
@@ -1974,6 +2221,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [test-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.clapper#grizzled-slf4j_2.12;1.3.2 [test-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [test-internal->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [test-internal->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [test-internal->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0 [test-internal->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [test-internal->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [test-internal->compile]
@@ -1982,6 +2237,14 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [test-internal->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.objenesis#objenesis;2.1 [test-internal->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [test-internal->runtime(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [test-internal->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [test-internal->runtime]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [test-internal->compile]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [test-internal->compile(*)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.9 [test-internal->master]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.21 [test-internal->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.21 [test-internal->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.21 [test-internal->compile]
@@ -2059,10 +2322,10 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [scala-tool->optional(default)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [scala-tool->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.8 [scala-tool->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
-[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(compile)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile(*)]
@@ -2077,66 +2340,437 @@
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.8 [scala-tool->optional]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.8 [scala-tool->optional(default)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.8 [scala-tool->master]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->master(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->runtime(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile]
-[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->master(compile)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->runtime]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.8 [scala-tool->master]
-[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->jline#jline;2.14.6 [scala-tool->compile]
-[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {scala-tool=[compile, master(compile), compile(*), master]}
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->jline#jline;2.14.6 [scala-tool->master(*)]
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {scala-tool=[master(*), compile, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: jline#jline;2.14.6
 [debug] 	found jline#jline;2.14.6 in sbt-chain
-[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->jline#jline;2.14.6 [scala-tool->master(compile)]
+[debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->jline#jline;2.14.6 [scala-tool->compile]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->jline#jline;2.14.6 [scala-tool->compile(*)]
 [debug] == resolving dependencies io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT->jline#jline;2.14.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] commons-cli#commons-cli;1.3.1!commons-cli.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-streaming-java_2.12;1.9.1!flink-streaming-java_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar(src)
-[debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.2!commons-collections.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.21!akka-protobuf_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.12;2.5.21!akka-slf4j_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-clients_2.12;1.9.1!flink-clients_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-streaming-scala_2.12;1.9.1!flink-streaming-scala_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.github.scopt#scopt_2.12;3.5.0!scopt_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-hadoop-fs;1.9.1!flink-hadoop-fs.jar(src)
-[debug] 	[NOT REQUIRED] com.twitter#chill_2.12;0.7.6!chill_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-metrics-core;1.9.1!flink-metrics-core.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-core;1.9.1!flink-core.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-optimizer_2.12;1.9.1!flink-optimizer_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-runtime_2.12;1.9.1!flink-runtime_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-queryable-state-client-java;1.9.1!flink-queryable-state-client-java.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-java;1.9.1!flink-java.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.3.7!ssl-config-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.18!commons-compress.jar(src)
-[debug] 	[NOT REQUIRED] org.javassist#javassist;3.19.0-GA!javassist.jar(src)
-[debug] 	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.21!akka-stream_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-math3;3.5!commons-math3.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-annotations;1.9.1!flink-annotations.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] com.twitter#chill-java;0.7.6!chill-java.jar(src)
-[debug] 	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.4!snappy-java.jar(src)
-[debug] 	[NOT REQUIRED] org.clapper#grizzled-slf4j_2.12;1.3.2!grizzled-slf4j_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.1!objenesis.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.21!akka-actor_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.15!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.24.0!kryo.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.flink#flink-scala_2.12;1.9.1!flink-scala_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
-[debug] :: resolution report :: resolve 335ms :: artifacts dl 9ms
+[debug] 		tried /Users/francescofrontera/.ivy2/local/com.typesafe.akka/akka-protobuf_2.12/2.5.21/srcs/akka-protobuf_2.12-sources.jar
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.commons/commons-lang3/3.3.2/srcs/commons-lang3-sources.jar
+[debug] 		tried /Users/francescofrontera/.ivy2/local/commons-collections/commons-collections/3.2.2/srcs/commons-collections-sources.jar
+[debug] 		tried /Users/francescofrontera/.ivy2/local/commons-cli/commons-cli/1.3.1/srcs/commons-cli-sources.jar
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-streaming-java_2.12/1.9.1/srcs/flink-streaming-java_2.12-sources.jar
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.scala-lang/scala-library/2.12.8/srcs/scala-library-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-java_2.12/1.9.1/flink-streaming-java_2.12-1.9.1-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.21/akka-protobuf_2.12-2.5.21-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar ...
+[info] downloading https://repo1.maven.org/maven2/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.21/akka-protobuf_2.12-2.5.21-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.21/akka-protobuf_2.12-2.5.21-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar
+[info] 	[SUCCESSFUL ] commons-collections#commons-collections;3.2.2!commons-collections.jar(src) (220ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/com.typesafe.akka/akka-slf4j_2.12/2.5.21/srcs/akka-slf4j_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.21/akka-slf4j_2.12-2.5.21-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1-sources.jar
+[info] 	[SUCCESSFUL ] commons-cli#commons-cli;1.3.1!commons-cli.jar(src) (239ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-clients_2.12/1.9.1/srcs/flink-clients_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-clients_2.12/1.9.1/flink-clients_2.12-1.9.1-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar(src) (243ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.12/1.1.1/srcs/scala-parser-combinators_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.1/scala-parser-combinators_2.12-1.1.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.1/scala-parser-combinators_2.12-1.1.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.1/scala-parser-combinators_2.12-1.1.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/flink/flink-clients_2.12/1.9.1/flink-clients_2.12-1.9.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-clients_2.12/1.9.1/flink-clients_2.12-1.9.1-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.8!scala-library.jar(src) (321ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-shaded-jackson/2.9.8-7.0/srcs/flink-shaded-jackson-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-jackson/2.9.8-7.0/flink-shaded-jackson-2.9.8-7.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.1/scala-parser-combinators_2.12-1.1.1-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.21/akka-protobuf_2.12-2.5.21-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.1/scala-parser-combinators_2.12-1.1.1-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src) (230ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-shaded-guava/18.0-7.0/srcs/flink-shaded-guava-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-guava/18.0-7.0/flink-shaded-guava-18.0-7.0-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.21/akka-protobuf_2.12-2.5.21-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf_2.12;2.5.21!akka-protobuf_2.12.jar(src) (494ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-streaming-scala_2.12/1.9.1/srcs/flink-streaming-scala_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-scala_2.12/1.9.1/flink-streaming-scala_2.12-1.9.1-sources.jar
+[debug] CLIENT ERROR:  url=https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-guava/18.0-7.0/flink-shaded-guava-18.0-7.0-sources.jar
+[debug] 		tried /Users/francescofrontera/.sbt/preloaded/org.apache.flink/flink-shaded-guava/18.0-7.0/srcs/flink-shaded-guava-sources.jar
+[debug] 		tried file:////Users/francescofrontera/.sbt/preloaded/org/apache/flink/flink-shaded-guava/18.0-7.0/flink-shaded-guava-18.0-7.0-sources.jar
+[debug] 		tried https://repository.apache.org/content/repositories/snapshots/org/apache/flink/flink-shaded-guava/18.0-7.0/flink-shaded-guava-18.0-7.0-sources.jar
+[debug] CLIENT ERROR:  url=https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-jackson/2.9.8-7.0/flink-shaded-jackson-2.9.8-7.0-sources.jar
+[debug] 		tried /Users/francescofrontera/.sbt/preloaded/org.apache.flink/flink-shaded-jackson/2.9.8-7.0/srcs/flink-shaded-jackson-sources.jar
+[debug] 		tried file:////Users/francescofrontera/.sbt/preloaded/org/apache/flink/flink-shaded-jackson/2.9.8-7.0/flink-shaded-jackson-2.9.8-7.0-sources.jar
+[debug] 		tried https://repository.apache.org/content/repositories/snapshots/org/apache/flink/flink-shaded-jackson/2.9.8-7.0/flink-shaded-jackson-2.9.8-7.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.21/akka-slf4j_2.12-2.5.21-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.21/akka-slf4j_2.12-2.5.21-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.21/akka-slf4j_2.12-2.5.21-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.21/akka-slf4j_2.12-2.5.21-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.12;2.5.21!akka-slf4j_2.12.jar(src) (473ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/com.github.scopt/scopt_2.12/3.5.0/srcs/scopt_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.5.0/scopt_2.12-3.5.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-clients_2.12/1.9.1/flink-clients_2.12-1.9.1-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.5.0/scopt_2.12-3.5.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.5.0/scopt_2.12-3.5.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-java_2.12/1.9.1/flink-streaming-java_2.12-1.9.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-java_2.12/1.9.1/flink-streaming-java_2.12-1.9.1-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/flink/flink-clients_2.12/1.9.1/flink-clients_2.12-1.9.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.flink#flink-clients_2.12;1.9.1!flink-clients_2.12.jar(src) (533ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.0.6/srcs/scala-xml_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.5.0/scopt_2.12-3.5.0-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.5.0/scopt_2.12-3.5.0-sources.jar
+[info] 	[SUCCESSFUL ] com.github.scopt#scopt_2.12;3.5.0!scopt_2.12.jar(src) (156ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-hadoop-fs/1.9.1/srcs/flink-hadoop-fs-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-hadoop-fs/1.9.1/flink-hadoop-fs-1.9.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src) (192ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.reactivestreams/reactive-streams/1.0.2/srcs/reactive-streams-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-java_2.12/1.9.1/flink-streaming-java_2.12-1.9.1-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar.sha1
+[debug] CLIENT ERROR: Not Found url=https://repository.apache.org/content/repositories/snapshots/org/apache/flink/flink-shaded-guava/18.0-7.0/flink-shaded-guava-18.0-7.0-sources.jar
+[debug] 		tried file:/Users/francescofrontera/.m2/repository/org/apache/flink/flink-shaded-guava/18.0-7.0/flink-shaded-guava-18.0-7.0-sources.jar
+[warn] 	Detected merged artifact: [FAILED     ] org.apache.flink#flink-shaded-guava;18.0-7.0!flink-shaded-guava.jar(src):  (0ms).
+[warn] ==== local: tried
+[warn] ==== public: tried
+[warn] ==== local-preloaded-ivy: tried
+[warn] ==== local-preloaded: tried
+[warn] ==== Apache Development Snapshot Repository: tried
+[warn] ==== Maven2 Local: tried
+[warn]   file:/Users/francescofrontera/.m2/repository/org/apache/flink/flink-shaded-guava/18.0-7.0/flink-shaded-guava-18.0-7.0-sources.jar
+[debug] 		tried /Users/francescofrontera/.ivy2/local/com.twitter/chill_2.12/0.7.6/srcs/chill_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/twitter/chill_2.12/0.7.6/chill_2.12-0.7.6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-scala_2.12/1.9.1/flink-streaming-scala_2.12-1.9.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-scala_2.12/1.9.1/flink-streaming-scala_2.12-1.9.1-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-java_2.12/1.9.1/flink-streaming-java_2.12-1.9.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.flink#flink-streaming-java_2.12;1.9.1!flink-streaming-java_2.12.jar(src) (1089ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-shaded-asm-6/6.2.1-7.0/srcs/flink-shaded-asm-6-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-asm-6/6.2.1-7.0/flink-shaded-asm-6-6.2.1-7.0-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar
+[info] 	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src) (124ms)
+[info] downloading https://repo1.maven.org/maven2/com/twitter/chill_2.12/0.7.6/chill_2.12-0.7.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/chill_2.12/0.7.6/chill_2.12-0.7.6-sources.jar
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-metrics-core/1.9.1/srcs/flink-metrics-core-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-metrics-core/1.9.1/flink-metrics-core-1.9.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repository.apache.org/content/repositories/snapshots/org/apache/flink/flink-shaded-jackson/2.9.8-7.0/flink-shaded-jackson-2.9.8-7.0-sources.jar
+[debug] 		tried file:/Users/francescofrontera/.m2/repository/org/apache/flink/flink-shaded-jackson/2.9.8-7.0/flink-shaded-jackson-2.9.8-7.0-sources.jar
+[warn] 	Detected merged artifact: [FAILED     ] org.apache.flink#flink-shaded-jackson;2.9.8-7.0!flink-shaded-jackson.jar(src):  (0ms).
+[warn] ==== local: tried
+[warn] ==== public: tried
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /Users/francescofrontera/.sbt/preloaded/org.apache.flink/flink-shaded-jackson/2.9.8-7.0/srcs/flink-shaded-jackson-sources.jar
+[warn] ==== local-preloaded: tried
+[warn]   file:////Users/francescofrontera/.sbt/preloaded/org/apache/flink/flink-shaded-jackson/2.9.8-7.0/flink-shaded-jackson-2.9.8-7.0-sources.jar
+[warn] ==== Apache Development Snapshot Repository: tried
+[warn]   https://repository.apache.org/content/repositories/snapshots/org/apache/flink/flink-shaded-jackson/2.9.8-7.0/flink-shaded-jackson-2.9.8-7.0-sources.jar
+[warn] ==== Maven2 Local: tried
+[warn]   file:/Users/francescofrontera/.m2/repository/org/apache/flink/flink-shaded-jackson/2.9.8-7.0/flink-shaded-jackson-2.9.8-7.0-sources.jar
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-core/1.9.1/srcs/flink-core-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-core/1.9.1/flink-core-1.9.1-sources.jar
+[debug] CLIENT ERROR:  url=https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-asm-6/6.2.1-7.0/flink-shaded-asm-6-6.2.1-7.0-sources.jar
+[debug] 		tried /Users/francescofrontera/.sbt/preloaded/org.apache.flink/flink-shaded-asm-6/6.2.1-7.0/srcs/flink-shaded-asm-6-sources.jar
+[debug] 		tried file:////Users/francescofrontera/.sbt/preloaded/org/apache/flink/flink-shaded-asm-6/6.2.1-7.0/flink-shaded-asm-6-6.2.1-7.0-sources.jar
+[debug] 		tried https://repository.apache.org/content/repositories/snapshots/org/apache/flink/flink-shaded-asm-6/6.2.1-7.0/flink-shaded-asm-6-6.2.1-7.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/flink/flink-metrics-core/1.9.1/flink-metrics-core-1.9.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-metrics-core/1.9.1/flink-metrics-core-1.9.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/chill_2.12/0.7.6/chill_2.12-0.7.6-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/org/apache/flink/flink-hadoop-fs/1.9.1/flink-hadoop-fs-1.9.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-hadoop-fs/1.9.1/flink-hadoop-fs-1.9.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-metrics-core/1.9.1/flink-metrics-core-1.9.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/chill_2.12/0.7.6/chill_2.12-0.7.6-sources.jar
+[info] 	[SUCCESSFUL ] com.twitter#chill_2.12;0.7.6!chill_2.12.jar(src) (169ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-optimizer_2.12/1.9.1/srcs/flink-optimizer_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-optimizer_2.12/1.9.1/flink-optimizer_2.12-1.9.1-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/flink/flink-metrics-core/1.9.1/flink-metrics-core-1.9.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.flink#flink-metrics-core;1.9.1!flink-metrics-core.jar(src) (193ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-java/1.9.1/srcs/flink-java-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-java/1.9.1/flink-java-1.9.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-scala_2.12/1.9.1/flink-streaming-scala_2.12-1.9.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-scala_2.12/1.9.1/flink-streaming-scala_2.12-1.9.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.flink#flink-streaming-scala_2.12;1.9.1!flink-streaming-scala_2.12.jar(src) (879ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-runtime_2.12/1.9.1/srcs/flink-runtime_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-runtime_2.12/1.9.1/flink-runtime_2.12-1.9.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-hadoop-fs/1.9.1/flink-hadoop-fs-1.9.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/flink/flink-hadoop-fs/1.9.1/flink-hadoop-fs-1.9.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.flink#flink-hadoop-fs;1.9.1!flink-hadoop-fs.jar(src) (651ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-queryable-state-client-java/1.9.1/srcs/flink-queryable-state-client-java-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-queryable-state-client-java/1.9.1/flink-queryable-state-client-java-1.9.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/flink/flink-optimizer_2.12/1.9.1/flink-optimizer_2.12-1.9.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-optimizer_2.12/1.9.1/flink-optimizer_2.12-1.9.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repository.apache.org/content/repositories/snapshots/org/apache/flink/flink-shaded-asm-6/6.2.1-7.0/flink-shaded-asm-6-6.2.1-7.0-sources.jar
+[debug] 		tried file:/Users/francescofrontera/.m2/repository/org/apache/flink/flink-shaded-asm-6/6.2.1-7.0/flink-shaded-asm-6-6.2.1-7.0-sources.jar
+[warn] 	Detected merged artifact: [FAILED     ] org.apache.flink#flink-shaded-asm-6;6.2.1-7.0!flink-shaded-asm-6.jar(src):  (0ms).
+[warn] ==== local: tried
+[warn] ==== public: tried
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /Users/francescofrontera/.sbt/preloaded/org.apache.flink/flink-shaded-asm-6/6.2.1-7.0/srcs/flink-shaded-asm-6-sources.jar
+[warn] ==== local-preloaded: tried
+[warn]   file:////Users/francescofrontera/.sbt/preloaded/org/apache/flink/flink-shaded-asm-6/6.2.1-7.0/flink-shaded-asm-6-6.2.1-7.0-sources.jar
+[warn] ==== Apache Development Snapshot Repository: tried
+[warn]   https://repository.apache.org/content/repositories/snapshots/org/apache/flink/flink-shaded-asm-6/6.2.1-7.0/flink-shaded-asm-6-6.2.1-7.0-sources.jar
+[warn] ==== Maven2 Local: tried
+[warn]   file:/Users/francescofrontera/.m2/repository/org/apache/flink/flink-shaded-asm-6/6.2.1-7.0/flink-shaded-asm-6-6.2.1-7.0-sources.jar
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.scala-lang/scala-compiler/2.12.8/srcs/scala-compiler-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/org/apache/flink/flink-queryable-state-client-java/1.9.1/flink-queryable-state-client-java-1.9.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-queryable-state-client-java/1.9.1/flink-queryable-state-client-java-1.9.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/flink/flink-core/1.9.1/flink-core-1.9.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-core/1.9.1/flink-core-1.9.1-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src) (182ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/com.typesafe/ssl-config-core_2.12/0.3.7/srcs/ssl-config-core_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.3.7/ssl-config-core_2.12-0.3.7-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/flink/flink-java/1.9.1/flink-java-1.9.1-sources.jar ...
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.3.7/ssl-config-core_2.12-0.3.7-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.3.7/ssl-config-core_2.12-0.3.7-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-java/1.9.1/flink-java-1.9.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-optimizer_2.12/1.9.1/flink-optimizer_2.12-1.9.1-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.3.7/ssl-config-core_2.12-0.3.7-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/flink/flink-optimizer_2.12/1.9.1/flink-optimizer_2.12-1.9.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.flink#flink-optimizer_2.12;1.9.1!flink-optimizer_2.12.jar(src) (728ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.commons/commons-compress/1.18/srcs/commons-compress-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-queryable-state-client-java/1.9.1/flink-queryable-state-client-java-1.9.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.3.7/ssl-config-core_2.12-0.3.7-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.12;0.3.7!ssl-config-core_2.12.jar(src) (221ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.javassist/javassist/3.19.0-GA/srcs/javassist-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/flink/flink-runtime_2.12/1.9.1/flink-runtime_2.12-1.9.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-runtime_2.12/1.9.1/flink-runtime_2.12-1.9.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/flink/flink-queryable-state-client-java/1.9.1/flink-queryable-state-client-java-1.9.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.flink#flink-queryable-state-client-java;1.9.1!flink-queryable-state-client-java.jar(src) (615ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/commons-io/commons-io/2.4/srcs/commons-io-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-core/1.9.1/flink-core-1.9.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-compress;1.18!commons-compress.jar(src) (254ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/com.typesafe.akka/akka-stream_2.12/2.5.21/srcs/akka-stream_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.21/akka-stream_2.12-2.5.21-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.21/akka-stream_2.12-2.5.21-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.21/akka-stream_2.12-2.5.21-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA-sources.jar
+[info] 	[SUCCESSFUL ] org.javassist#javassist;3.19.0-GA!javassist.jar(src) (193ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.commons/commons-math3/3.5/srcs/commons-math3-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.5/commons-math3-3.5-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/flink/flink-core/1.9.1/flink-core-1.9.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.flink#flink-core;1.9.1!flink-core.jar(src) (1160ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/force-shading/1.9.1/srcs/force-shading-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/force-shading/1.9.1/force-shading-1.9.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar.sha1
+[debug] CLIENT ERROR:  url=https://repo1.maven.org/maven2/org/apache/flink/force-shading/1.9.1/force-shading-1.9.1-sources.jar
+[debug] 		tried /Users/francescofrontera/.sbt/preloaded/org.apache.flink/force-shading/1.9.1/srcs/force-shading-sources.jar
+[debug] 		tried file:////Users/francescofrontera/.sbt/preloaded/org/apache/flink/force-shading/1.9.1/force-shading-1.9.1-sources.jar
+[debug] 		tried https://repository.apache.org/content/repositories/snapshots/org/apache/flink/force-shading/1.9.1/force-shading-1.9.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-java/1.9.1/flink-java-1.9.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
+[info] 	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.jar(src) (205ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-annotations/1.9.1/srcs/flink-annotations-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-annotations/1.9.1/flink-annotations-1.9.1-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/flink/flink-java/1.9.1/flink-java-1.9.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.flink#flink-java;1.9.1!flink-java.jar(src) (1139ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/com.typesafe/config/1.3.3/srcs/config-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-runtime_2.12/1.9.1/flink-runtime_2.12-1.9.1-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.21/akka-stream_2.12-2.5.21-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/flink/flink-runtime_2.12/1.9.1/flink-runtime_2.12-1.9.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.flink#flink-runtime_2.12;1.9.1!flink-runtime_2.12.jar(src) (1143ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/com.twitter/chill-java/0.7.6/srcs/chill-java-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/twitter/chill-java/0.7.6/chill-java-0.7.6-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.21/akka-stream_2.12-2.5.21-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.12;2.5.21!akka-stream_2.12.jar(src) (361ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.scala-lang/scala-reflect/2.12.8/srcs/scala-reflect-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe#config;1.3.3!config.jar(src) (172ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.xerial.snappy/snappy-java/1.1.4/srcs/snappy-java-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.4/snappy-java-1.1.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/flink/flink-annotations/1.9.1/flink-annotations-1.9.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-annotations/1.9.1/flink-annotations-1.9.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src) (204ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.clapper/grizzled-slf4j_2.12/1.3.2/srcs/grizzled-slf4j_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.12/1.3.2/grizzled-slf4j_2.12-1.3.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/twitter/chill-java/0.7.6/chill-java-0.7.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/chill-java/0.7.6/chill-java-0.7.6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.12/1.3.2/grizzled-slf4j_2.12-1.3.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.12/1.3.2/grizzled-slf4j_2.12-1.3.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.4/snappy-java-1.1.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.4/snappy-java-1.1.4-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repository.apache.org/content/repositories/snapshots/org/apache/flink/force-shading/1.9.1/force-shading-1.9.1-sources.jar
+[debug] 		tried file:/Users/francescofrontera/.m2/repository/org/apache/flink/force-shading/1.9.1/force-shading-1.9.1-sources.jar
+[warn] 	Detected merged artifact: [FAILED     ] org.apache.flink#force-shading;1.9.1!force-shading.jar(src):  (0ms).
+[warn] ==== local: tried
+[warn] ==== public: tried
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /Users/francescofrontera/.sbt/preloaded/org.apache.flink/force-shading/1.9.1/srcs/force-shading-sources.jar
+[warn] ==== local-preloaded: tried
+[warn]   file:////Users/francescofrontera/.sbt/preloaded/org/apache/flink/force-shading/1.9.1/force-shading-1.9.1-sources.jar
+[warn] ==== Apache Development Snapshot Repository: tried
+[warn]   https://repository.apache.org/content/repositories/snapshots/org/apache/flink/force-shading/1.9.1/force-shading-1.9.1-sources.jar
+[warn] ==== Maven2 Local: tried
+[warn]   file:/Users/francescofrontera/.m2/repository/org/apache/flink/force-shading/1.9.1/force-shading-1.9.1-sources.jar
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-shaded-netty/4.1.32.Final-7.0/srcs/flink-shaded-netty-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-netty/4.1.32.Final-7.0/flink-shaded-netty-4.1.32.Final-7.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.12/1.3.2/grizzled-slf4j_2.12-1.3.2-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-annotations/1.9.1/flink-annotations-1.9.1-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.4/snappy-java-1.1.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.12/1.3.2/grizzled-slf4j_2.12-1.3.2-sources.jar
+[info] 	[SUCCESSFUL ] org.clapper#grizzled-slf4j_2.12;1.3.2!grizzled-slf4j_2.12.jar(src) (141ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.objenesis/objenesis/2.1/srcs/objenesis-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/flink/flink-annotations/1.9.1/flink-annotations-1.9.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.flink#flink-annotations;1.9.1!flink-annotations.jar(src) (641ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/com.google.code.findbugs/jsr305/1.3.9/srcs/jsr305-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.4/snappy-java-1.1.4-sources.jar
+[info] 	[SUCCESSFUL ] org.xerial.snappy#snappy-java;1.1.4!snappy-java.jar(src) (391ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/com.typesafe.akka/akka-actor_2.12/2.5.21/srcs/akka-actor_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.21/akka-actor_2.12-2.5.21-sources.jar
+[debug] CLIENT ERROR:  url=https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
+[debug] 		tried /Users/francescofrontera/.sbt/preloaded/com.google.code.findbugs/jsr305/1.3.9/srcs/jsr305-sources.jar
+[debug] 		tried file:////Users/francescofrontera/.sbt/preloaded/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
+[debug] 		tried https://repository.apache.org/content/repositories/snapshots/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.21/akka-actor_2.12-2.5.21-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.21/akka-actor_2.12-2.5.21-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/chill-java/0.7.6/chill-java-0.7.6-sources.jar.sha1
+[debug] CLIENT ERROR:  url=https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-netty/4.1.32.Final-7.0/flink-shaded-netty-4.1.32.Final-7.0-sources.jar
+[debug] 		tried /Users/francescofrontera/.sbt/preloaded/org.apache.flink/flink-shaded-netty/4.1.32.Final-7.0/srcs/flink-shaded-netty-sources.jar
+[debug] 		tried file:////Users/francescofrontera/.sbt/preloaded/org/apache/flink/flink-shaded-netty/4.1.32.Final-7.0/flink-shaded-netty-4.1.32.Final-7.0-sources.jar
+[debug] 		tried https://repository.apache.org/content/repositories/snapshots/org/apache/flink/flink-shaded-netty/4.1.32.Final-7.0/flink-shaded-netty-4.1.32.Final-7.0-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/chill-java/0.7.6/chill-java-0.7.6-sources.jar
+[info] 	[SUCCESSFUL ] org.objenesis#objenesis;2.1!objenesis.jar(src) (167ms)
+[info] 	[SUCCESSFUL ] com.twitter#chill-java;0.7.6!chill-java.jar(src) (577ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.slf4j/slf4j-api/1.7.15/srcs/slf4j-api-sources.jar
+[debug] 		tried /Users/francescofrontera/.ivy2/local/com.esotericsoftware.kryo/kryo/2.24.0/srcs/kryo-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.5/commons-math3-3.5-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.5/commons-math3-3.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.21/akka-actor_2.12-2.5.21-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar
+[info] 	[SUCCESSFUL ] com.esotericsoftware.kryo#kryo;2.24.0!kryo.jar(src) (251ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.apache.flink/flink-scala_2.12/1.9.1/srcs/flink-scala_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/flink/flink-scala_2.12/1.9.1/flink-scala_2.12-1.9.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.21/akka-actor_2.12-2.5.21-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.21!akka-actor_2.12.jar(src) (417ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/com.esotericsoftware.minlog/minlog/1.2/srcs/minlog-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.5/commons-math3-3.5-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.5/commons-math3-3.5-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-math3;3.5!commons-math3.jar(src) (1256ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/org.scala-lang.modules/scala-java8-compat_2.12/0.8.0/srcs/scala-java8-compat_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15-sources.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.15!slf4j-api.jar(src) (427ms)
+[debug] 		tried /Users/francescofrontera/.ivy2/local/jline/jline/2.14.6/srcs/jline-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repository.apache.org/content/repositories/snapshots/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
+[debug] 		tried file:/Users/francescofrontera/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
+[warn] 	Detected merged artifact: [FAILED     ] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar(src):  (0ms).
+[warn] ==== local: tried
+[warn] ==== public: tried
+[warn] ==== local-preloaded-ivy: tried
+[warn] ==== local-preloaded: tried
+[warn] ==== Apache Development Snapshot Repository: tried
+[warn] ==== Maven2 Local: tried
+[warn]   file:/Users/francescofrontera/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar
+[info] 	[SUCCESSFUL ] com.esotericsoftware.minlog#minlog;1.2!minlog.jar(src) (153ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar.sha1
+[debug] CLIENT ERROR: Not Found url=https://repository.apache.org/content/repositories/snapshots/org/apache/flink/flink-shaded-netty/4.1.32.Final-7.0/flink-shaded-netty-4.1.32.Final-7.0-sources.jar
+[debug] 		tried file:/Users/francescofrontera/.m2/repository/org/apache/flink/flink-shaded-netty/4.1.32.Final-7.0/flink-shaded-netty-4.1.32.Final-7.0-sources.jar
+[warn] 	Detected merged artifact: [FAILED     ] org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0!flink-shaded-netty.jar(src):  (0ms).
+[warn] ==== local: tried
+[warn] ==== public: tried
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /Users/francescofrontera/.sbt/preloaded/org.apache.flink/flink-shaded-netty/4.1.32.Final-7.0/srcs/flink-shaded-netty-sources.jar
+[warn] ==== local-preloaded: tried
+[warn]   file:////Users/francescofrontera/.sbt/preloaded/org/apache/flink/flink-shaded-netty/4.1.32.Final-7.0/flink-shaded-netty-4.1.32.Final-7.0-sources.jar
+[warn] ==== Apache Development Snapshot Repository: tried
+[warn]   https://repository.apache.org/content/repositories/snapshots/org/apache/flink/flink-shaded-netty/4.1.32.Final-7.0/flink-shaded-netty-4.1.32.Final-7.0-sources.jar
+[warn] ==== Maven2 Local: tried
+[warn]   file:/Users/francescofrontera/.m2/repository/org/apache/flink/flink-shaded-netty/4.1.32.Final-7.0/flink-shaded-netty-4.1.32.Final-7.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/org/apache/flink/flink-scala_2.12/1.9.1/flink-scala_2.12-1.9.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-scala_2.12/1.9.1/flink-scala_2.12-1.9.1-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src) (162ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar
+[info] 	[SUCCESSFUL ] jline#jline;2.14.6!jline.jar(src) (159ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/flink/flink-scala_2.12/1.9.1/flink-scala_2.12-1.9.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/flink/flink-scala_2.12/1.9.1/flink-scala_2.12-1.9.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.flink#flink-scala_2.12;1.9.1!flink-scala_2.12.jar(src) (648ms)
+[debug] :: resolution report :: resolve 162ms :: artifacts dl 3998ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::              FAILED DOWNLOADS            ::
+[warn] 	:: ^ see resolution messages for details  ^ ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: org.apache.flink#flink-shaded-jackson;2.9.8-7.0!flink-shaded-jackson.jar(src)
+[warn] 	:: org.apache.flink#flink-shaded-guava;18.0-7.0!flink-shaded-guava.jar(src)
+[warn] 	:: org.apache.flink#flink-shaded-asm-6;6.2.1-7.0!flink-shaded-asm-6.jar(src)
+[warn] 	:: org.apache.flink#force-shading;1.9.1!force-shading.jar(src)
+[warn] 	:: org.apache.flink#flink-shaded-netty;4.1.32.Final-7.0!flink-shaded-netty.jar(src)
+[warn] 	:: com.google.code.findbugs#jsr305;1.3.9!jsr305.jar(src)
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [debug] 	report for io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT compile produced in /Users/francescofrontera/Workspace/open-source-project/two-five-one-progression/target/scala-2.12/resolution-cache/reports/io.github.francescofrontera-two-five-one-progression$sources-compile.xml
 [debug] 	report for io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT runtime produced in /Users/francescofrontera/Workspace/open-source-project/two-five-one-progression/target/scala-2.12/resolution-cache/reports/io.github.francescofrontera-two-five-one-progression$sources-runtime.xml
 [debug] 	report for io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT test produced in /Users/francescofrontera/Workspace/open-source-project/two-five-one-progression/target/scala-2.12/resolution-cache/reports/io.github.francescofrontera-two-five-one-progression$sources-test.xml
@@ -2148,4 +2782,4 @@
 [debug] 	report for io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT plugin produced in /Users/francescofrontera/Workspace/open-source-project/two-five-one-progression/target/scala-2.12/resolution-cache/reports/io.github.francescofrontera-two-five-one-progression$sources-plugin.xml
 [debug] 	report for io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT pom produced in /Users/francescofrontera/Workspace/open-source-project/two-five-one-progression/target/scala-2.12/resolution-cache/reports/io.github.francescofrontera-two-five-one-progression$sources-pom.xml
 [debug] 	report for io.github.francescofrontera#two-five-one-progression$sources;0.1-SNAPSHOT scala-tool produced in /Users/francescofrontera/Workspace/open-source-project/two-five-one-progression/target/scala-2.12/resolution-cache/reports/io.github.francescofrontera-two-five-one-progression$sources-scala-tool.xml
-[debug] 	resolve done (335ms resolve - 9ms download)
+[debug] 	resolve done (162ms resolve - 3998ms download)
